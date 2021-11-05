@@ -1,21 +1,12 @@
-<nav class="navbar navbar-light bg-faded">
-    <div class="container">
-        <a class="navbar-brand" href="#">Articles</a>
-        <ul class="nav navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="/article">首页 <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">写文章</a>
-            </li>
-        </ul>
-        <ul class="nav navbar-nav pull-right">
-            <li class="nav-item">
-                <a href="" class="btn btn-primary-outline">登录</a>
-            </li>
-            <li class="nav-item">
-                <a href="" class="btn btn-success-outline">注册</a>
-            </li>
-        </ul>
-    </div>
-</nav>
+<div class="foot-color">
+    <div>开心的每一天~~~</div>
+    <div><a href="">京ICP备 2021033937号</a></div>
+</div>
+<style>
+    .foot-color{
+        background-color: #50556B;
+        color:#ffffff;
+        font-size: 14px;
+        text-align: center;
+    }
+</style>

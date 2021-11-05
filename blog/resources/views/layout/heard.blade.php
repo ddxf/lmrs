@@ -1,6 +1,21 @@
-<div class="footer"
-     style="width: 100%;height: 300px;background-color: #00B388;padding-top: 50px;">
+<nav class="navbar navbar-light bg-faded">
     <div class="container">
-        <h1 style="color: #FFFFFF;font-size: 1.5em;">Articles</h1>
+        <a class="navbar-brand" href="#">Articles</a>
+        <ul class="nav navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="/article">首页 <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">写文章</a>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav pull-right">
+            <li class="nav-item">
+                <a href="" class="btn btn-primary-outline">登录</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="btn btn-success-outline">注册</a>
+            </li>
+        </ul>
     </div>
-</div>
+</nav>
