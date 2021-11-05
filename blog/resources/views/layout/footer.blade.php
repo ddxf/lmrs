@@ -1,4 +1,4 @@
-<div class="foot-color">
+<div class="foot-color footer">
     <div>开心的每一天~~~</div>
     <div><a href="">京ICP备 2021033937号</a></div>
 </div>
