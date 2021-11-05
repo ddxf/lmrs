@@ -7,6 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+</style>
 <body>
     <div style="height: 40px;background-color: cornflowerblue;color: #fff;">
         <span>{{$data}}</span>
