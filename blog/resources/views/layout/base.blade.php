@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.css">
-    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="{{URL::asset('css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{URL::asset('css/bootstrap-theme.css')}}">
 </head>
 <body>
 
