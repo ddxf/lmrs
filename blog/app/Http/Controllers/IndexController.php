@@ -9,6 +9,6 @@ class IndexController extends Controller
 
     public function index()
     {
-        echo "BUG";
+        return view('index.index', ['data' => '拂晓右耳']);
     }
 }
