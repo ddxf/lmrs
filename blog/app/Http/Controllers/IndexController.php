@@ -11,4 +11,9 @@ class IndexController extends Controller
     {
         return view('index.index', ['data' => '拂晓右耳']);
     }
+
+    public function article()
+    {
+
+    }
 }
