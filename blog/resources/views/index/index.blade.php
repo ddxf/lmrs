@@ -1,6 +1,11 @@
 @extends('layout.base')
 @section('content')
-    <div class="container" style="height: 500px;text-align: center;">
-        <h1 style="position: absolute;left: 35%;top: 30%;">继承模板的主页搞定了！</h1>
+    <div class="container">
+
+        <div class="starter-template">
+            <h1>Bootstrap starter template</h1>
+            <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+        </div>
+
     </div>
 @endsection

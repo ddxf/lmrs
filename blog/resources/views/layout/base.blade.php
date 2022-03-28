@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="{{URL::asset('sass/app.scss')}}">
     <link rel="stylesheet" href="{{URL::asset('css/bootstrap.css')}}">
     <link rel="stylesheet" href="{{URL::asset('css/bootstrap-theme.css')}}">
+    <script rel="stylesheet" href="{{URL::asset('css/jquery.min.js')}}"></script>
+    <script rel="stylesheet" href="{{URL::asset('css/bootstrap.js')}}"></script>
 </head>
 <body>
 
@@ -18,7 +20,5 @@
 
 {{-- 包含页脚 --}}
 @include('layout.footer')
-
-
 </body>
 </html>

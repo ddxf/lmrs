@@ -1,21 +1,20 @@
-<nav class="navbar navbar-light bg-faded">
+<nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="#">Articles</a>
-        <ul class="nav navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="/article">首页 <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">写文章</a>
-            </li>
-        </ul>
-        <ul class="nav navbar-nav pull-right">
-            <li class="nav-item">
-                <a href="" class="btn btn-primary-outline">登录</a>
-            </li>
-            <li class="nav-item">
-                <a href="" class="btn btn-success-outline">注册</a>
-            </li>
-        </ul>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
     </div>
 </nav>
